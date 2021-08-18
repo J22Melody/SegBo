@@ -1,0 +1,3 @@
+[submodule "raw/segbo"]
+	path = raw/segbo
+	url = https://github.com/segbo-db/segbo
