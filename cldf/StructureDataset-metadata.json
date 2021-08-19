@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "85d0b3a",
+            "dc:created": "16f3423",
             "dc:title": "Repository"
         },
         {
@@ -86,15 +86,9 @@
                         "name": "Value"
                     },
                     {
+                        "dc:extent": "multivalued",
                         "datatype": "string",
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-                        "required": false,
-                        "separator": ";",
-                        "name": "Source"
-                    },
-                    {
-                        "dc:extent": "singlevalued",
-                        "datatype": "string",
+                        "propertyUrl": "https://cldf.clld.org/v1.0/terms.rdf#glottocode",
                         "required": true,
                         "name": "Source_Language_ID"
                     },
@@ -117,10 +111,6 @@
                     {
                         "datatype": "string",
                         "name": "PhonemeComments"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Verified"
                     }
                 ],
                 "foreignKeys": [
@@ -330,9 +320,28 @@
                         "name": "Language_Name"
                     },
                     {
-                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
-                        "separator": ";",
-                        "name": "Source"
+                        "datatype": "string",
+                        "name": "BibTexKey"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Filename"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Contributor"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MetadataComments"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PhoibleID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ClosestNeighbor"
                     }
                 ],
                 "foreignKeys": [
