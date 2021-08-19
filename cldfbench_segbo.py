@@ -43,9 +43,9 @@ class Dataset(BaseDataset):
             'ValueTable',
             {
                 "dc:extent": "multivalued",
+                "separator": ",",
                 "datatype": "string",
-                "propertyUrl": "https://cldf.clld.org/v1.0/terms.rdf#glottocode",
-                "required": True,
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
                 "name": "Source_Language_ID",
             },
             'Inventory_ID',
@@ -83,7 +83,7 @@ class Dataset(BaseDataset):
                 'Parameter_ID': str(counter),
                 'Inventory_ID': row['InventoryID'],
                 'Language_ID': row['BorrowingLanguageGlottocode'],
-                'Source_Language_ID': ','.join(list(filter(lambda x: x != 'unknown', row['SourceLanguageGlottocode'].split(', ')))),
+                'Source_Language_ID': list(filter(lambda x: x != 'unknown', row['SourceLanguageGlottocode'].split(', '))),
                 'Inventory_ID': row['InventoryID'],
                 'Value': row['BorrowedSound'],
                 **{ k: row[k] for k in self.valueTableProperties}

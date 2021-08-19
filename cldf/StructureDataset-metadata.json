@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "16f3423",
+            "dc:created": "d8ef29f",
             "dc:title": "Repository"
         },
         {
@@ -88,8 +88,8 @@
                     {
                         "dc:extent": "multivalued",
                         "datatype": "string",
-                        "propertyUrl": "https://cldf.clld.org/v1.0/terms.rdf#glottocode",
-                        "required": true,
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
+                        "separator": ",",
                         "name": "Source_Language_ID"
                     },
                     {
