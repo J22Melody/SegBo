@@ -27,7 +27,7 @@ class Dataset(BaseDataset):
     id = "segbo"
     valueTableProperties = ['OnlyInLoanwords', 'Result', 'NewDistinction', 'PhonemeComments']
     languageTableProperties = ['family_id', 'parent_id', 'bookkeeping', 'level', 'status', 'description', 'markup_description', 'child_family_count', 'child_language_count', 'child_dialect_count', 'country_ids']
-    inventoryTableProperties = ['BibTexKey', 'Filename', 'Contributor', 'MetadataComments', 'PhoibleID', 'ClosestNeighbor']
+    inventoryTableProperties = ['BibTexKey', 'Filename', 'MetadataComments', 'PhoibleID', 'ClosestNeighbor']
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return CLDFSpec(dir=self.cldf_dir, module='StructureDataset')
@@ -48,26 +48,32 @@ class Dataset(BaseDataset):
                 "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
                 "name": "Source_Language_ID",
             },
-            'Inventory_ID',
+            {
+                "dc:extent": "singlevalued",
+                "datatype": "string",
+                "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributionReference",
+                "required": True,
+                "name": "Inventory_ID"
+            },
             *self.valueTableProperties,
         )
 
         # parameters.csv
-        table = ds.add_component('ParameterTable')
+        ds.add_component('ParameterTable')
 
         # languages.csv
         ds.add_component('LanguageTable', *self.languageTableProperties)
 
-        # inventories.csv
-        table = ds.add_table(
-            'inventories.csv',
-            {'name': 'ID', 'propertyUrl': "http://cldf.clld.org/v1.0/terms.rdf#id"},
+        # contributions.csv
+        ds.add_component('ContributionTable')
+        ds.remove_columns('ContributionTable', 'Name', 'Description', 'Citation')
+        ds.add_columns(
+            'ContributionTable',
             {'name': 'Language_ID', 'propertyUrl': "http://cldf.clld.org/v1.0/terms.rdf#languageReference"},
             {'name': 'Language_Name', 'propertyUrl': "http://cldf.clld.org/v1.0/terms.rdf#name"},
             *self.inventoryTableProperties,
         )
-        table.tableSchema.primaryKey = ['ID']
-        ds.add_foreign_key('ValueTable', 'Inventory_ID', 'inventories.csv', 'ID')
+        ds.add_foreign_key('ValueTable', 'Inventory_ID', 'ContributionTable', 'ID')
 
     def cmd_makecldf(self, args):
         self.create_schema(args.writer.cldf)
@@ -116,14 +122,15 @@ class Dataset(BaseDataset):
                     **{ k: row[k] for k in self.languageTableProperties}
                 })
 
-        # inventories.csv
+        # contributions.csv
         for row in self.raw_dir.read_csv(
             self.raw_dir / 'segbo' / 'data' / 'SegBo database - Metadata.csv',
             dicts=True,
         ):
-            args.writer.objects['inventories.csv'].append({
+            args.writer.objects['ContributionTable'].append({
                 'ID': row['InventoryID'],
                 'Language_ID': row['Glottocode'],
-                'Language_Name': row['LanguageName'],
+                'Name': row['LanguageName'],
+                'Contributor': row['Contributor'],
                 **{ k: row[k] for k in self.inventoryTableProperties}
             })
