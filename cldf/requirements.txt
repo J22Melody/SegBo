@@ -2,7 +2,7 @@ appdirs==1.4.4
 bs4==0.0.1
 certifi==2021.5.30
 cldfbench==1.7.2
--e git+git@github.com:cldf-datasets/segbo.git@dafec59b10744a7f08a435677cec9f8dbe4526c9#egg=cldfbench_SegBo
+-e git+git@github.com:cldf-datasets/segbo.git@0257901d141cf20f2d969885ab5832c28b7ddb48#egg=cldfbench_SegBo
 cldfcatalog==1.3.2
 clldutils==3.9.0
 colorlog==5.0.1

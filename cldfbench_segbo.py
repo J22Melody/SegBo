@@ -130,7 +130,7 @@ class Dataset(BaseDataset):
             args.writer.objects['ContributionTable'].append({
                 'ID': row['InventoryID'],
                 'Language_ID': row['Glottocode'],
-                'Name': row['LanguageName'],
+                'Language_Name': row['LanguageName'],
                 'Contributor': row['Contributor'],
                 **{ k: row[k] for k in self.inventoryTableProperties}
             })
