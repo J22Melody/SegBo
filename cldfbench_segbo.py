@@ -1,6 +1,7 @@
 import pathlib
 import subprocess
 import unicodedata
+import hashlib
 from cldfbench import Dataset as BaseDataset
 from cldfbench import CLDFSpec
 
@@ -80,13 +81,17 @@ class Dataset(BaseDataset):
 
         # values.csv
         counter = 1
+        plist = []
         for row in self.raw_dir.read_csv(
             self.raw_dir / 'segbo' / 'data' / 'SegBo database - Phonemes.csv',
             dicts=True,
         ):
+            desc = ' - '.join(unicodedata.name(c) for c in row['BorrowedSound'])
+            pid = hashlib.md5(desc.encode('utf8')).hexdigest().upper()
+
             args.writer.objects['ValueTable'].append({
                 'ID': str(counter),
-                'Parameter_ID': str(counter),
+                'Parameter_ID': pid,
                 'Inventory_ID': row['InventoryID'],
                 'Language_ID': row['BorrowingLanguageGlottocode'],
                 'Source_Language_ID': list(filter(lambda x: x != 'unknown', row['SourceLanguageGlottocode'].split(', '))),
@@ -95,13 +100,14 @@ class Dataset(BaseDataset):
                 **{ k: row[k] for k in self.valueTableProperties}
             })
             # parameters.csv
-            args.writer.objects['ParameterTable'].append({
-                'ID': str(counter),
-                'Name': row['BorrowedSound'],
-                'Description': ' - '.join(unicodedata.name(c) for c in row['BorrowedSound']), 
-                # TODO more features, does not exist in raw data
-            })
+            if pid not in plist:
+                args.writer.objects['ParameterTable'].append({
+                    'ID': pid,
+                    'Name': row['BorrowedSound'],
+                    'Description': desc, 
+                })
             counter += 1
+            plist.append(pid)
         
         # languages.csv
         glangs = {l.id: l for l in args.glottolog.api.languoids()}
