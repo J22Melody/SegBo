@@ -112,11 +112,14 @@ class Dataset(BaseDataset):
         # languages.csv
         glangs = {l.id: l for l in args.glottolog.api.languoids()}
         language_ids = list(map(lambda row: row['Language_ID'], args.writer.objects['ValueTable']))
+        source_language_ids = list(map(lambda row: row['Source_Language_ID'], args.writer.objects['ValueTable']))
+        source_language_ids = [item for sublist in source_language_ids for item in sublist]
+        
         for row in self.raw_dir.read_csv(
             self.raw_dir / 'segbo' / 'data' / 'glottolog_languoid.csv' / 'languoid.csv',
             dicts=True,
         ):
-            if row['id'] in language_ids:
+            if row['id'] in language_ids or row['id'] in source_language_ids:
                 args.writer.objects['LanguageTable'].append({
                     'ID': row['id'],
                     'Name': row['name'],
