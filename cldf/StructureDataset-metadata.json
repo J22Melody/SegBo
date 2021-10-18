@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "30c5b39",
+            "dc:created": "989f856",
             "dc:title": "Repository"
         },
         {
@@ -203,7 +203,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 514,
+            "dc:extent": 624,
             "tableSchema": {
                 "columns": [
                     {
