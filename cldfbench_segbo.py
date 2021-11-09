@@ -28,7 +28,7 @@ class Dataset(BaseDataset):
     id = "segbo"
     valueTableProperties = ['OnlyInLoanwords', 'Result', 'NewDistinction', 'PhonemeComments']
     languageTableProperties = ['family_id', 'parent_id', 'bookkeeping', 'level', 'status', 'description', 'markup_description', 'child_family_count', 'child_language_count', 'child_dialect_count', 'country_ids']
-    inventoryTableProperties = ['BibTexKey', 'Filename', 'MetadataComments', 'PhoibleID', 'ClosestNeighbor']
+    inventoryTableProperties = ['BibTexKey', 'Filename', 'MetadataComments', 'PhoibleID', 'Dialect']
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return CLDFSpec(dir=self.cldf_dir, module='StructureDataset')

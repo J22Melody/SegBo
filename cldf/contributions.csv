@@ -1,4 +1,4 @@
-ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,PhoibleID,ClosestNeighbor
+ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,PhoibleID,Dialect
 1,Einav Levanon,abau1245,Abau,bailey1975abau,,,,
 2,Elad Eisen,abui1241,Abui,kratochvil2007abui,,,,
 3,Einav Levanon,abun1252,Abun,berry1999abun,,,,
@@ -7,10 +7,10 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 6,Einav Levanon,musa1266,Aisi,daniels2015sogeram,,,,
 7,NA,akaj1239,Aka-Jeru,abbi2013greatandamanese,,,,
 8,Elad Eisen,aleu1260,Aleut,bergsland1997aleut,,,,
-9,KurdistanDB,alqo1238,Alqosh,coghill2004alqosh,,,,
+9,KurdistanDB,chal1275,Alqosh,coghill2004alqosh,,,,alqo1238
 10,Einav Levanon,amap1240,Ama (Papua New Guinea),aarsjo1999ama,,,,
 13,Einav Levanon,wara1294,Anta-Komnzo-Wára-Wérè-Kémä,dohler2016komnzo,,,,
-14,KurdistanDB,arbe1239,Arbel,khan1999arbel,,,,
+14,KurdistanDB,lish1245,Arbel,khan1999arbel,,,,arbe1239
 15,Elad Eisen,stan1288,Argentinian Spanish,honsa1965argentinianspanish,,glottocode is for Standard Spanish,,
 16,Einav Levanon,asil1242,Asilulu,collins2003asilulu,,,,
 17,Steven Moran,awiy1238,Awiyaana,Bees1965,auy_SPA1979_phon.pdf,,57,
@@ -18,10 +18,10 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 19,Eitan Grossman,bamb1262,Bambassi,ahland2009bambassi,,,,
 20,Dmitry Nikolaev,bash1264,Bashkir,poppe1964bashkir,,,,
 21,Steven Moran,basq1248,Basque,"Ndiaye1970,Gavel1929",eus_SPA1979_phon.pdf,,179,
-22,KurdistanDB,bazz1238,Baz,mutzafi2000maha_khtaya,,,,
+22,KurdistanDB,assy1241,Baz,mutzafi2000maha_khtaya,,,,bazz1238
 23,Dmitry Nikolaev,bela1254,Belarusian,mayo1993belorussian,,,,
 24,Steven Moran,beng1280,Bengali,FergusonChowdhury1960,ben_SPA1979_phon.pdf,,177,
-25,KurdistanDB,beta1257,Bétanure,mutzafi2008betanure,,,,
+25,KurdistanDB,lish1247,Bétanure,mutzafi2008betanure,,,,beta1257
 26,Dmitry Nikolaev,bett1235,Betta Kurumba,coelho2003bettakurumba,,,,
 27,Elad Eisen,biak1248,Biak,heuvel2006biak,,,,
 28,Einav Levanon,bier1244,Bierebo,budd2010bierebo,,,,
@@ -31,13 +31,13 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 32,Eitan Grossman,nucl1310,Burmese,wheatley2003burmese,,,,
 33,Steven Moran,buru1296,Burushaski,Morgenstierne1945,bsk_SPA1979_phon.pdf,,6,
 34,David Ginebra,cahu1264,Cahuilla,seiler1977cahuilla,,,,
-35,Dmitry Nikolaev,cast1244,Castilian,"martinez2003castilian, frias2001spanish",,,,
-36,NA,cent2142,Central Aymara,hardman2001aymara,,,,
+35,Dmitry Nikolaev,stan1288,Castilian,"martinez2003castilian, frias2001spanish",,,,
+36,NA,cent2142,Central Aymara,hardman2001aymara,hardman2001aymara.pdf,,,
 37,Steven Moran,cent2050,Central Kanuri,Lukas1937,knc_SPA1979_phon.pdf,,150,
-38,KurdistanDB,azer1255,Central Oghuz,schoenig2015azerbaijanian,,,,
+38,KurdistanDB,nort2697,Central Oghuz,schoenig1998azerbaijanian,,,,
 39,KurdistanDB,lish1247,Challa Neo-Aramaic (Jewish NENA),fassberg2010challa,,,,
 40,Elad Eisen,cher1273,Cherokee,montgomery2008cherokee,,,,
-41,Eitan Grossman,chil1281,Chiliwack,galloway1977chilliwack,,,,
+41,Eitan Grossman,halk1245,Chiliwack,galloway1977chilliwack,,,,chil1281
 42,Eitan Grossman,chim1300,Chimalapa Zoque,jimenez2014chimalapazoque,,,,
 43,Steven Moran,chiq1250,Chiquihuitlán Mazatec,PikePike1947,maq_SPA1979_phon.pdf,,99,
 44,Eitan Grossman,chol1282,Chol,vasquez2011chol,,,,
@@ -52,11 +52,11 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 55,Eitan Grossman,daur1238,Dagur,tsumagari2003dagur,,,,
 56,Dmitry Nikolaev,dame1241,Dameli,"bashir2007dardic, morgenstierne1942dameli",,,,
 57,KurdistanDB,diml1238,Dimli,todd2003dimili,,,,
-58,Einav Levanon,duka1248,Duka-Ekor,desousa2006menggwa,,,,
+58,Einav Levanon,dera1245,Duka-Ekor,desousa2006menggwa,,,,duka1248
 59,Einav Levanon,dusn1237,Dusner,dalrymple2012dusner,,,,
 60,Einav Levanon,east2440,East Makian,bowden2001taba,,,,
 61,Steven Moran,nucl1235,Eastern Armenian,Allen1950,hye_SPA1979_phon.pdf,,171,
-62,Einav Levanon,east2495,Eastern Edolo,gossner1998easternedolo,,,,
+62,Einav Levanon,edol1239,Eastern Edolo,gossner1998easternedolo,,,,east2495
 63,Steven Moran,east2328,Eastern Mari,Ristinen1960,mhr_SPA1979_phon.pdf,,181,
 64,Steven Moran,east2542,Eastern Ojibwa,Bloomfield1957,ojg_SPA1979_phon.pdf,,72,
 65,Steven Moran,panj1256,Eastern Panjabi,GillGleason1963,pan_SPA1979_phon.pdf,,175,
@@ -69,14 +69,14 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 72,Lotta Jalava,fore1274,Forest Nenets,salminen2007forestnenets,,,,
 74,Einav Levanon,gant1244,Gants,daniels2015sogeram,,,,
 75,Steven Moran,garo1247,Garo,Burling1961,grt_SPA1979_phon.pdf,,24,
-76,KurdistanDB,gawh1238,Gawraju Gorani,stilo2004vafsi,,,,
+76,KurdistanDB,gura1251,Gawraju Gorani,stilo2004vafsi,,,,gawh1238
 77,NA,gayo1244,Gayo,eades2005gayo,,,,
 78,Steven Moran,nucl1302,Georgian,"RobinsWaterson1952,Selmer1935,Tschenkeli1958,Vogt1938,Vogt1939,Vogt1958,Vogt1971",kat_SPA1979_phon.pdf,,5,
 79,Elad Eisen,stan1295,German,wiese1996german,,,,
 80,Dmitry Nikolaev,gran1245,Grangali,"bashir2007dardic, grjunberg1971grangali_zemiaki",,,,
 81,Einav Levanon,gras1249,Grass Koiari,dutton2003koiari,,,,
 83,Eitan Grossman,guer1243,Guerrero Amuzgo,steward2000guerreroamuzgo,,,,
-86,KurdistanDB,hert1242,Hértevin Proper,jastrow1988hertevin,,,,
+86,KurdistanDB,hert1241,Hértevin Proper,jastrow1988hertevin,,,,hert1242
 87,Linda Konnerth,karb1241,Hills Karbi,konnerth2014karbi,,,,
 89,Eitan Grossman,hueh1236,Huehuetla Tepehua,kung2007tepehua,,,,
 90,Steven Moran,hung1274,Hungarian,"Kalman1972,Banhidi_etal1965,Hall1938,Hall1944",hun_SPA1979_phon.pdf,,183,
@@ -87,30 +87,30 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 95,Eitan Grossman,jams1239,Jamsay Dogon,heath2008jamsay,heath2008jamsay.pdf,,,
 96,Elad Eisen,nucl1643,Japanese,labrune2012japanese,,,,
 97,Rammie Cahlon,jauj1238,Jauja Wanca Quechua,wroughton1996jaujaquechua,,,,
-98,KurdistanDB,jilu1238,Jilu,fox1997jilu,,,,
+98,KurdistanDB,assy1241,Jilu,fox1997jilu,,,,jilu1238
 99,Steven Moran,kaba1278,Kabardian,Kuipers1960,kbd_SPA1979_phon.pdf,,4,
 100,Elad Eisen,kaby1243,Kabyle,kossmann2013kabyle,,,,
 101,Eitan Grossman,kala1399,Kalaallisut,fortescue1984kalallisuut,,,,
-102,Dmitry Nikolaev,kala1374,Kalam (Pakistan),"bashir2007dardic, baart1995kalam, baart1997kalam",,,,
+102,Dmitry Nikolaev,kala1373,Kalam (Pakistan),"bashir2007dardic, baart1995kalam, baart1997kalam",,,,kala1374
 103,Einav Levanon,kaur1271,Kaure-Narau,auri1991kaure,,,,
 104,Eitan Grossman,kawa1283,Kawaiisu,zigmond1990kawaiisu,,,,
 105,Chingduang Yurayong,kaza1248,Kazakh,"kirchner1998kazakhkarakalpak, mccollum2018kazakh",,,,
-106,Dmitry Nikolaev,nort2672,Kazym Khanty,kaksin2007kazym_khanty,,,,
+106,Dmitry Nikolaev,khan1273,Kazym Khanty,kaksin2007kazym_khanty,,,,nort2672
 107,Steven Moran,khan1273,Kazym-Berezover-Suryskarer Khanty,"Gulya1966,Steinitz1950,Katz1975",kca_SPA1979_phon.pdf,,184,
 108,Einav Levanon,kend1254,Kendayan,adelaar2005salako,,,,
 109,Eitan Grossman,kham1281,Khamnigan Mongol,janhunen2003khamniganmongol,,,,
-110,Eitan Grossman,khit1238,Khithaulhu,lowe1999nambiquara,,,,
+110,Eitan Grossman,sout2994,Khithaulhu,lowe1999nambiquara,,,,khit1238
 111,NA,khva1239,Khwarshi-Inkhoqwari,khalilova2009khwarshi,,,,
 112,KurdistanDB,nort3142,Anatolian Arabic,jastrow2006anatolianarabic,,,,
 113,Einav Levanon,kipu1237,Kiput,blust2003short,,,,
-114,Einav Levanon,koki1244,Koki,bradshaw2012koki,,,,
+114,Einav Levanon,doro1266,Koki,bradshaw2012koki,,,,koki1244
 115,Einav Levanon,kome1238,Komering,abdurrahman1979komering,,,,
 116,Dmitry Nikolaev,komi1269,Komi-Permyak,majshev1940komi_permjak,,,,
 117,Dmitry Nikolaev,komi1277,Komi-Yazva,lytkin1961komi_yazva,,,,
 118,Dmitry Nikolaev,komi1268,Komi-Zyrian,lytkin1955komi,,,,
 119,Einav Levanon,kona1242,Konai,aarsjo2016konai,,,,
-120,Einav Levanon,kora1295,Korafe,farr1974korafe,,,,
-122,KurdistanDB,koys1241,Koy Sanjaq Neo-Aramaic,mutzafi2004koysanjaq,,,,
+120,Einav Levanon,kora1294,Korafe,farr1974korafe,,,,kora1295
+122,KurdistanDB,lish1245,Koy Sanjaq Neo-Aramaic,mutzafi2004koysanjaq,,,,koys1241
 123,Eitan Grossman,koyr1240,Koyra Chiini Songhay,heath1999koyrachiini,,,,
 125,Rammie Cahlon,culi1244,Culina,dienst2014kulina,,,,
 126,Steven Moran,kuru1302,Kurukh,"Pinnow1964,Pfeiffer1972,Grignard1924",kru_SPA1979_phon.pdf,,7,
@@ -122,8 +122,8 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 132,Einav Levanon,louu1245,Lou,blust1998lou,,,,
 133,Steven Moran,luok1236,Luo (Kenya and Tanzania),Gregersen1961,luo_SPA1979_phon.pdf,,153,
 134,Einav Levanon,nucl1460,Madurese,davies2010madurese,,,,
-135,Einav Levanon,maka1317,Makasai,correia2011makasae,,,,
-136,NA,makl1245,Maklere,huber2011makalero,,,,
+135,Einav Levanon,maka1316,Makasai,correia2011makasae,,,,maka1317
+136,NA,maka1316,Maklere,huber2011makalero,,,,makl1245
 137,NA,mamm1241,Mam,england1983mam,,,,
 138,Elad Eisen,mamb1294,Mambai,anonby2011mambay,,,,
 139,NA,mana1298,Manambu,aikhenvald2010manambu,,,,
@@ -141,14 +141,14 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 151,KurdistanDB,mlah1239,Mlahsö,jastrow2011turoyomlahso,,,,
 152,Elad Eisen,hebr1245,Modern Hebrew,schwarzwald2011modernhebrew,,,,
 153,Eitan Grossman,mong1330,Mongolia Buriat,skribnik2003buryat,,,,
-154,Elad Eisen,mong1331,Mongolian,svantesson2005mongolian,,,,
+154,Elad Eisen,halh1238,Mongolian,svantesson2005mongolian,,,,
 156,Einav Levanon,mudu1242,Muduapa,bachet2006muduapa,,,,
 157,Dmitry Nikolaev,munj1244,Munji,williamson2017munji,,,,
-158,NA,musq1240,Musqueam,suttles2004musqueam,,,,
+158,NA,halk1245,Musqueam,suttles2004musqueam,,,,musq1240
 159,Einav Levanon,muss1246,Mussau-Emira,brownie2007mussau,,,,
 160,Einav Levanon,sout2857,Nahavaq,dimock2009nahavaq,,,,
 161,Einav Levanon,naka1262,Nakanai,chowning2016nakanai,,,,
-162,Steven Moran,nama1265,Nama,Beach1938,naq_SPA1979_phon.pdf,,155,
+162,Steven Moran,nama1264,Nama,Beach1938,naq_SPA1979_phon.pdf,,155,nama1265
 163,Steven Moran,nava1243,Navajo,SapirHoijer1967,nav_SPA1979_phon.pdf,,66,
 164,Dmitry Nikolaev,naxi1245,Naxi,michailovsky2006naxi,,,,
 165,Einav Levanon,ngka1235,Ngkontar Ngkolmpu,carroll2016ngkolmpu,,,,
@@ -160,7 +160,7 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 172,Eitan Grossman,bamb1262,Northern Mao (Bambassi),ahland2012bambassi,,,,
 173,Steven Moran,nuuc1236,Nuu-chah-nulth,"SapirMorris1939,SapirMorris1955,Jacobsen1969",noo_SPA1979_phon.pdf,,70,
 174,Eitan Grossman,ocot1243,Ocotepec Mixtec,alexander1988ocotepecmixtec,,,,
-175,Eitan Grossman,ocot1242,Ocotepec,faarlund2012chiapaszoque,,,,
+175,Eitan Grossman,copa1236,Ocotepec,faarlund2012chiapaszoque,,,,ocot1242
 176,Dmitry Nikolaev,kalm1243,Oirad-Kalmyk,"blasing2003kalmyk, say2009kalmyk",,,,
 177,Einav Levanon,oira1263,Oirata,faust2006oirata,,,,
 178,Eitan Grossman,olut1240,Oluta Popoluca,zavala2000olutec,,,,
@@ -178,9 +178,9 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 190,Chingduang Yurayong,saek1240,Saek,gedney1993saek,,,,
 191,Steven Moran,yaku1245,Sakha,"Krueger1962,Bohtlingk1964",sah_SPA1979_phon.pdf,,190,
 192,Elad Eisen,sanm1295,San Miguel El Grande Mixtec,macaulay1996chalcatongomixtec,,,,
-193,KurdistanDB,sana1291,Sanandaj,khan2009sanandaj,,,,
-194,Elad Eisen,sand1270,Sandong,wei2008sandong,,,,
-195,KurdistanDB,saqi1238,Saqiz,israeli1998saqiz,,,,
+193,KurdistanDB,hula1244,Sanandaj,khan2009sanandaj,,,,sana1291
+194,Elad Eisen,suii1243,Sandong,wei2008sandong,,,,sand1270
+195,KurdistanDB,hula1244,Saqiz,israeli1998saqiz,,,,saqi1238
 196,Elad Eisen,savo1255,Savosavo,wegener2012savosavo,,,,
 197,Einav Levanon,sawe1240,Saweru,donohue2002saweru,,,,
 198,KurdistanDB,nort3139,Sedentary Hatay Arabic,werner2000hatay,,,,
@@ -192,7 +192,7 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 204,Dmitry Nikolaev,slav1254,Slavomolisano,breu2000slavomolisano,,,,
 205,Dmitry Nikolaev,sooo1254,Sô,migliazza1998so,,,,
 206,NA,soch1239,Sochiapam Chinantec,foris1993sochiapamchinantec,,,,
-207,Elad Eisen,sodd1242,Soddo,leslau1992soddo,,,,
+207,Elad Eisen,kist1241,Soddo,leslau1992soddo,,,,sodd1242
 208,Antti Laine,soma1255,Somali,saeed1999somali,,,,
 209,Steven Moran,sout2991,South Bolivian Quechua,"Bills_etal1969,Lastra1968,Lastra1968,Parker1969",quh_SPA1979_phon.pdf,,104,
 210,Steven Moran,sout2982,Southeastern Pomo,Moshinsky1974,pom_SPA1979_phon.pdf,,89,
@@ -201,14 +201,14 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 213,NA,sril1245,Sri Lanka Malay,nordhoff2009srilankamalay,,,,
 214,Steven Moran,stan1306,Standard Malay,"Verguin1967,MacdonaldSoenyono1967",zsm_SPA1979_phon.pdf,,32,
 215,Einav Levanon,suab1238,Suabo,devries2004inanwatan,,,,
-216,KurdistanDB,sule1243,Suleimaniya Neo-Aramaic,khan2004sulemaniyya,,,,
+216,KurdistanDB,hula1244,Suleimaniya Neo-Aramaic,khan2004sulemaniyya,,,,sule1243
 217,Elad Eisen,sout2808,Sumayela Ndebele,ndebele1959ziervogel,,,,
 218,Dmitry Nikolaev,sumi1235,Sumi Naga,teo2012sumi,,,,
 220,Steven Moran,taba1266,Tabasco Chontal,Keller1959,chf_SPA1979_phon.pdf,,85,
-221,Dmitry Nikolaev,tabr1242,Tabriz,mokari2017azerbaijani,,,,
+221,Dmitry Nikolaev,sout2697,Tabriz,mokari2017azerbaijani,,,,tabr1242
 222,Elad Eisen,tafi1243,Tafi,bobuafor2013tafi,,,,
 223,Elad Eisen,taga1270,Tagalog,schachter1983tagalog,,,,
-224,Einav Levanon,taki1251,Takivatan,debusser2009takivatan,,,,
+224,Einav Levanon,bunu1267,Takivatan,debusser2009takivatan,,,,taki1251
 225,Rammie Cahlon,tapi1253,Tapieté,gonzalez2005tapiete,,,,
 226,Elad Eisen,tari1256,Tariana,aikhenvald2003tariana,,,,
 227,Dmitry Nikolaev,tata1255,Tatar,comrie1997tatar,,,,
@@ -224,7 +224,6 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 237,Eitan Grossman,toto1305,Totontepec Mixe,elson1992mixezoque,,,,
 238,Eitan Grossman,jeme1245,Towa,yumitani1998jemeztowa,,,,
 239,Elad Eisen,tsha1245,Tshangla,andvik2010tshangla,,,,
-240,Elad Eisen,ttgr1237,TT-Group,leslau1992gurage,,,,
 241,Steven Moran,tuni1252,Tunica,Haas1941,tun_SPA1979_phon.pdf,,80,
 242,Dmitry Nikolaev,turk1303,Turkic Khalaj,doerfer1988khalaj,,,,
 243,Elad Eisen,nucl1301,Turkish,kornfilt1997turkish,,,,
@@ -236,9 +235,9 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 249,NA,ughe1237,Ughele,frostad2013ughele,,,,
 250,NA,uigh1240,Uighur,"hahn1998uyghur, hahn2006uyghur",,,,
 251,Chingduang Yurayong,ukra1253,Ukrainian,shevelov1993ukrainian,,,,
-252,KurdistanDB,umra1238,Umraya,hobrack2000umraya,,,,
-253,NA,urar1246,Urarina,olawsky2006urarina,,,,
-254,Dmitry Nikolaev,uzbe1247,Uzbek,boeschoten1998uzbek,,,,
+252,KurdistanDB,hert1241,Umraya,hobrack2000umraya,,,,umra1238
+253,NA,urar1246,Urarina,olawsky2006urarina,olawsky2006urarina.pdf,,,
+254,Dmitry Nikolaev,nort2690,Uzbek,boeschoten1998uzbek,,,,
 255,KurdistanDB,vafs1240,Vafsi,stilo2004vafsi,,,,
 256,Steven Moran,waim1255,Waimaha,StolteStolte1971,mlt_SPA1979_phon.pdf,,114,
 257,Einav Levanon,wano1243,Wano,burung2007wano,,,,
@@ -247,9 +246,9 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 260,Elad Eisen,wels1247,Welsh,awbery2012welsh,,,,
 261,Einav Levanon,west2548,West Damar,chlenova2008westdamar,,,,
 262,Daria Zhornik,west2392,Western Mari,alhoniemi1993mari,,,,
-263,Einav Levanon,wita1237,Wita Ea,andersen1999witaea,,,,
+263,Einav Levanon,moro1287,Wita Ea,andersen1999witaea,,,,
 264,Heini Arjava,wutu1241,Wutunhua,sandman2016wutun,,,,
-265,Eitan Grossman,yane1238,Yanesha',adelaar2007yanesha,,,,
+265,Eitan Grossman,yane1238,Yanesha',adelaar2007yanesha,adelaar2007yanesha.pdf,,,
 266,Einav Levanon,yima1243,Yimas,foley1991yimas,,,,
 267,KurdistanDB,gura1251,Zarda Gorani,mahmoudveysi2013zardagorani,,,,
 268,Steven Moran,chuv1255,Chuvash,"Kruger1961,Andreev1966",chv_SPA1979_phon.pdf,,189,
@@ -288,7 +287,7 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 307,Eitan Grossman,guja1253,Gujari (Gojri),losey2002gujari,,,,
 308,Vanya Levin,mose1249,Mosetén,sakel2004moseten,,,,
 309,Daniel Wilson,osse1243,Ossetian,hettich2002ossetian,,,,
-310,Nikita Kuzin,qelt1235,Baghdad Arabic (Christian),abuhaidar1991baghdadchristianarabic,,,,
+310,Nikita Kuzin,nort3142,Baghdad Arabic (Christian),abuhaidar1991baghdadchristianarabic,,,,
 311,Polina Pleshak,ukaa1243,Ukaan,abiodun1999ukaan,,,,
 312,Vanya Levin,tuvi1240,Tuvan,harrison2000tuvan,,,,
 313,Aigul Zakirova,nene1249,Tundra Nenets,nikolaeva2014tundranenets,,,,
@@ -298,21 +297,21 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 317,Anna Sorokina,halh1238,Halh Mongolian,svantesson2005mongolian,,,,
 318,Dmitry Nikolaev,caml1239,Camling,ebert1997,,,,
 319,Dmitry Nikolaev,galo1242,Galo,post2007galo,,,,
-320,Elad Eisen,copi1238,Copi,gowlett2003copi,xho_Gowlett2003.pdf,,1318,
+320,Elad Eisen,chop1243,Copi,gowlett2003copi,xho_Gowlett2003.pdf,,1318,copi1238
 321,Elad Eisen,idom1241,Idoma,1536_idu,idu_Blench2010.pdf,,1536,
 322,Elad Eisen,nucl1440,Masalit,1565_mls,mls_Edgar1989.pdf,,1565,
 323,Elad Eisen,nubi1253,Nubi,kcn_wellens2003,kcn_wellens2003_phon.pdf,,967,
 324,Elad Eisen,wage1238,Wageman/Wagiman,cook1987wagiman,,Data from Erich Round,,
-325,Elad Eisen,waal1238,Waalubal,crowley1978bandjalang,,Data from Erich Round,,
+325,Elad Eisen,midd1357,Waalubal,crowley1978bandjalang,,Data from Erich Round,,waal1238
 326,Elad Eisen,umbu1235,Umbugarla,davies1989umbugarla,,Data from Erich Round,,
 327,Elad Eisen,badi1246,Badimaya,dunn1988badimaya,,Data from Erich Round,,
-328,Elad Eisen,gune1238,Kune,evans2003bininjgunwok,,Data from Erich Round,,
+328,Elad Eisen,gunw1252,Kune,evans2003bininjgunwok,,Data from Erich Round,,gune1238
 329,Elad Eisen,wand1263,Wandarang/Warndarang,heath1980warndarang,,Data from Erich Round,,
 330,Elad Eisen,madh1244,Madhimadhi,hercus1986madhimadhi,,Data from Erich Round,,
-331,Elad Eisen,jami1236,Jaminjung,schultzeberndt2000jaminjung,,Data from Erich Round,,
+331,Elad Eisen,djam1255,Jaminjung,schultzeberndt2000jaminjung,,Data from Erich Round,,jami1236
 332,Elad Eisen,iwai1244,Iwaidja,teo2007iwaidjanmaung,,Data from Erich Round,,
 333,Elad Eisen,anin1240,Enindhilyakwa/Anindilyakwa,vanegmond2012enindhilyakwa,,Data from Erich Round,,
-334,Elad Eisen,murr1259,Murrinhpatha,mansfield2014murrinhpatha,,Data from Erich Round,,
+334,Elad Eisen,murr1258,Murrinhpatha,mansfield2014murrinhpatha,,Data from Erich Round,,murr1259
 335,Elad Eisen,djin1253,Djinang,waters1988djinang,,Data from Erich Round,,
 336,Elad Eisen,arab1267,Arabana,hercus1994arabana,,Data from Erich Round,,
 337,Elad Eisen,umpi1239,Umpila,ogrady1988umpila,,Data from Erich Round,,
@@ -321,7 +320,7 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 340,Elad Eisen,maun1240,Mawng,singer2015mawng,,Data from Erich Round,,
 342,Elad Eisen,yala1262,Yalarnnga,breennodateyalarnnga,,Data from Erich Round,,
 343,Elad Eisen,kitj1240,Kija/Kitja,blythe2001kija,,Data from Erich Round,,
-344,Elad Eisen,kart1247,Kartujarra,ogrady1988kartujarra,,Data from Erich Round,,
+344,Elad Eisen,mart1256,Kartujarra,ogrady1988kartujarra,,Data from Erich Round,,kart1247
 345,Elad Eisen,yayg1236,Yaygir,morelli2012yaygir,,"Data from Erich Round, ask Eric by mail",,
 346,Elad Eisen,koyr1242,"Songhay, Koyraboro Senni",1274_songhay_heath1999,,,1274,
 347,Elad Eisen,heib1243,Heiban,1497_hbn,hbn_Guest1997.pdf,,1497,
@@ -330,7 +329,7 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 351,Elad Eisen,lagw1237,Lagwan,1406_kot,kot_Ruff2005.pdf,,1406,
 354,Elad Eisen,kuwa1246,Kuwaataay/Kwatay,1549_cwt,cwt_Payne1992.pdf,,1549,
 355,Elad Eisen,tach1250,Tashlhiyt Berber,shi_ridouane2014,shi_ridouane2014.pdf,,2229,
-357,Elad Eisen,bike1242,Bikele,biw_begne1979,biw_begne1979_phon.pdf,Coordinations are of Kol (Cameroon),1102,
+357,Elad Eisen,kolc1235,Bikele,biw_begne1979,biw_begne1979_phon.pdf,Coordinations are of Kol (Cameroon),1102,bike1242
 358,Elad Eisen,lega1249,Lega-Shabunda,botne2003lega,lea_Botne2003.pdf,,1259,
 359,Elad Eisen,food1238,Foodo,1310_foodo,foodo.pdf,,1310,
 360,Elad Eisen,mawa1270,Mawa,1378_mcw,mcw_Roberts2009.pdf,,1378,
@@ -507,10 +506,10 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 535,Dmitry Nikolaev,duru1236,Parji,burrowbhattacharya1953parji,,,,
 536,Dmitry Nikolaev,mara1378,Marathi,dhongadewali2009marathi,,,,
 537,Dmitry Nikolaev,moro1292,Moroccan Arabic,"cohen2017moroccanarabic,Harrell1962,Abdel-Massih1973,Harrell1965",ary_SPA1979_phon.pdf,"Unlike the SPA doculect with the same phonemes, this one lists the source language (Standard French).",133,
-538,Dmitry Nikolaev,mait1255,Maithili,kashyap2014bajjika,,The borrowing language (Bajjika) was previously considered a dialect of Maithili and has no glottocode or ISO code of its own.,,
+538,Dmitry Nikolaev,mait1250,Maithili,kashyap2014bajjika,,The borrowing language (Bajjika) was previously considered a dialect of Maithili and has no glottocode or ISO code of its own.,,
 539,Dmitry Nikolaev,kana1281,Kanauji,dwivedikar2016kanauji,,,,
 540,Dmitry Nikolaev,puma1239,Puma,sharma2013puma,,,,
-542,Yoav Yosef,pash1269,Pashto,tegeyrobson1996pashto,,"The grammar states that this consonant appears in loan words from Persian and Arabic, but not only those two languages.",,
+542,Yoav Yosef,nort2646,Pashto,tegeyrobson1996pashto,,"The grammar states that this consonant appears in loan words from Persian and Arabic, but not only those two languages.",,
 549,Yoav Yosef,urdu1245,Urdu,masica1993indoaryan,,,,
 550,Yoav Yosef,hind1269,Hindi,masica1993indoaryan,,,,
 551,Daniil Levin,dutc1256,Dutch,"peters2006dutch, verhoeven2005dutch",,,,

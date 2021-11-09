@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "989f856",
+            "dc:created": "5514e43",
             "dc:title": "Repository"
         },
         {
@@ -26,7 +26,7 @@
         {
             "rdf:about": "https://github.com/segbo-db/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0.0-8-geb7c042",
+            "dc:created": "v1.0.0-20-g91b729a",
             "dc:title": "Repository"
         }
     ],
@@ -48,7 +48,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 1666,
+            "dc:extent": 1664,
             "tableSchema": {
                 "columns": [
                     {
@@ -203,7 +203,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 624,
+            "dc:extent": 597,
             "tableSchema": {
                 "columns": [
                     {
@@ -319,7 +319,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 531,
+            "dc:extent": 530,
             "tableSchema": {
                 "columns": [
                     {
@@ -363,7 +363,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "ClosestNeighbor"
+                        "name": "Dialect"
                     }
                 ],
                 "foreignKeys": [
