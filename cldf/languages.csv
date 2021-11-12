@@ -206,6 +206,7 @@ indo1317,Indonesian Bajau,Papunesia,-3.68664,122.253,indo1317,bdl,aust1307,born1
 inon1237,Inonhan,Papunesia,12.284,122.03,inon1237,loc,aust1307,west2820,False,language,safe,,,0,0,4,PH
 irar1238,Irarutu,Papunesia,-2.94438,133.586,irar1238,irh,aust1307,nabi1238,False,language,vulnerable,,,0,0,0,ID
 iris1253,Irish,Eurasia,53.2186,-7.61509,iris1253,gle,indo1319,west2822,False,language,definitely endangered,,,0,0,3,GB IE
+iron1242,Iron,Eurasia,,,iron1242,,indo1319,osse1243,False,dialect,safe,,,0,0,0,
 ital1282,Italian,Eurasia,43.0464,12.6489,ital1282,ita,indo1319,ital1287,False,language,safe,,,0,0,4,AT CH FR HR IT SI SM VA
 itza1241,Itzá,North America,17.0269,-89.8734,itza1241,itz,maya1287,mopa1242,False,language,severely endangered,,,0,0,0,GT
 ivat1242,Itbayat,Papunesia,20.3848,121.975,ivat1242,ivv,aust1307,yami1257,False,language,safe,,,0,0,3,PH
@@ -401,7 +402,6 @@ nyam1271,Nyamal,Australia,-21.6092,119.693,nyam1271,nly,pama1250,nort3178,False,
 ocot1243,Ocotepec Mixtec,North America,17.1823,-97.751,ocot1243,mie,otom1299,west2824,False,language,vulnerable,,,0,0,1,MX
 oira1263,Oirata,Papunesia,-8.09044,127.201,oira1263,oia,timo1261,fata1246,False,language,definitely endangered,,,0,0,0,ID
 olut1240,Oluta Popoluca,North America,17.8937,-94.8863,olut1240,plo,mixe1284,mixe1286,False,language,severely endangered,,,0,0,0,MX
-osse1243,Ossetian,Eurasia,41.7882,43.2674,osse1243,oss,indo1319,osse1245,False,language,vulnerable,,,0,0,7,AZ GE RU TR
 paez1247,Páez,South America,2.61516,-76.3125,paez1247,pbb,,,False,language,vulnerable,,,0,0,2,CO
 pagu1249,Pagu,Papunesia,1.2134,127.78,pagu1249,pgu,nort2923,pagu1251,False,language,definitely endangered,,,0,0,3,ID
 paiw1248,Paiwan,Papunesia,22.3271,120.806,paiw1248,pwn,aust1307,aust1307,False,language,vulnerable,,,0,0,0,TW

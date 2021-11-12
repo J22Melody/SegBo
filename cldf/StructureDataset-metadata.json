@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "5514e43",
+            "dc:created": "1950819",
             "dc:title": "Repository"
         },
         {
@@ -26,7 +26,7 @@
         {
             "rdf:about": "https://github.com/segbo-db/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0.0-20-g91b729a",
+            "dc:created": "v1.0.0-22-g6a6bdca",
             "dc:title": "Repository"
         }
     ],
