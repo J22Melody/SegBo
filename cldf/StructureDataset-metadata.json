@@ -9,31 +9,31 @@
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:identifier": "https://github.com/segbo-db/segbo",
     "dc:title": "SegBo",
-    "dcat:accessURL": "git@github.com:cldf-datasets/segbo",
+    "dcat:accessURL": "https://github.com/cldf-datasets/segbo",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "git@github.com:cldf-datasets/segbo",
+            "rdf:about": "https://github.com/cldf-datasets/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "1950819",
+            "dc:created": "6c0569e",
             "dc:title": "Repository"
         },
         {
-            "rdf:about": "git@github.com:glottolog/glottolog",
+            "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.4-20-gf6531fcec3",
+            "dc:created": "v4.4-52-g73da501d96",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/segbo-db/segbo",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0.0-22-g6a6bdca",
+            "dc:created": "v1.0.0-24-g1812685",
             "dc:title": "Repository"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.8.11"
+            "dc:description": "3.9.8"
         },
         {
             "dc:title": "python-packages",
@@ -48,7 +48,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 1664,
+            "dc:extent": 1663,
             "tableSchema": {
                 "columns": [
                     {
@@ -203,7 +203,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 597,
+            "dc:extent": 598,
             "tableSchema": {
                 "columns": [
                     {

@@ -11,7 +11,7 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 10,Einav Levanon,amap1240,Ama (Papua New Guinea),aarsjo1999ama,,,,
 13,Einav Levanon,wara1294,Anta-Komnzo-Wára-Wérè-Kémä,dohler2016komnzo,,,,
 14,KurdistanDB,lish1245,Arbel,khan1999arbel,,,,arbe1239
-15,Elad Eisen,stan1288,Argentinian Spanish,honsa1965argentinianspanish,,glottocode is for Standard Spanish,,
+15,Elad Eisen,stan1288,Argentinian Spanish,honsa1965argentinianspanish,honsa1965argentinianspanish,glottocode is for Standard Spanish,,riop1234
 16,Einav Levanon,asil1242,Asilulu,collins2003asilulu,,,,
 17,Steven Moran,awiy1238,Awiyaana,Bees1965,auy_SPA1979_phon.pdf,,57,
 18,Elad Eisen,bafu1246,Bafut,tamanji2009bafut,,,,
@@ -31,7 +31,7 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 32,Eitan Grossman,nucl1310,Burmese,wheatley2003burmese,,,,
 33,Steven Moran,buru1296,Burushaski,Morgenstierne1945,bsk_SPA1979_phon.pdf,,6,
 34,David Ginebra,cahu1264,Cahuilla,seiler1977cahuilla,,,,
-35,Dmitry Nikolaev,stan1288,Castilian,"martinez2003castilian, frias2001spanish",,,,
+35,Dmitry Nikolaev,stan1288,Castilian,"martinez2003castilian, frias2001spanish",,,,cast1244
 36,NA,cent2142,Central Aymara,hardman2001aymara,hardman2001aymara.pdf,,,
 37,Steven Moran,cent2050,Central Kanuri,Lukas1937,knc_SPA1979_phon.pdf,,150,
 38,KurdistanDB,nort2697,Central Oghuz,schoenig1998azerbaijanian,,,,
@@ -103,7 +103,7 @@ ID,Contributor,Language_ID,Language_Name,BibTexKey,Filename,MetadataComments,Pho
 111,NA,khva1239,Khwarshi-Inkhoqwari,khalilova2009khwarshi,,,,
 112,KurdistanDB,nort3142,Anatolian Arabic,jastrow2006anatolianarabic,,,,
 113,Einav Levanon,kipu1237,Kiput,blust2003short,,,,
-114,Einav Levanon,doro1266,Koki,bradshaw2012koki,,,,koki1244
+114,Einav Levanon,doro1266,Koki,bradshaw2012koki,bradshaw2012koki,,,koki1244
 115,Einav Levanon,kome1238,Komering,abdurrahman1979komering,,,,
 116,Dmitry Nikolaev,komi1269,Komi-Permyak,majshev1940komi_permjak,,,,
 117,Dmitry Nikolaev,komi1277,Komi-Yazva,lytkin1961komi_yazva,,,,

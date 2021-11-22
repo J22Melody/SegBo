@@ -9,9 +9,9 @@ property | value
 [dc:bibliographicCitation](http://purl.org/dc/terms/bibliographicCitation) | Grossman, Eitan, Elad Eisen, Dmitry Nikolaev and Steven Moran. 2020. SegBo: A Database of Borrowed Sounds in the World\u2019s Languages. In Proceedings of the Twelfth International Conference on Language Resources and Evaluation (LREC 2020). Online: http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.654.pdf.
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://github.com/segbo-db/segbo
-[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:cldf-datasets/segbo
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:cldf-datasets/segbo/tree/1950819">git@github.com:cldf-datasets/segbo 1950819</a></li><li><a href="git@github.com:glottolog/glottolog/tree/f6531fcec3">Glottolog v4.4-20-gf6531fcec3</a></li><li><a href="https://github.com/segbo-db/segbo/tree/6a6bdca">segbo-db/segbo v1.0.0-22-g6a6bdca</a></li></ol>
-[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.11</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
+[dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | https://github.com/cldf-datasets/segbo
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="https://github.com/cldf-datasets/segbo/tree/6c0569e">cldf-datasets/segbo 6c0569e</a></li><li><a href="https://github.com/glottolog/glottolog/tree/73da501d96">Glottolog v4.4-52-g73da501d96</a></li><li><a href="https://github.com/segbo-db/segbo/tree/1812685">segbo-db/segbo v1.0.0-24-g1812685</a></li></ol>
+[prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.9.8</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | segbo
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
 
@@ -21,7 +21,7 @@ property | value
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ValueTable](http://cldf.clld.org/v1.0/terms.rdf#ValueTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 1664
+[dc:extent](http://purl.org/dc/terms/extent) | 1663
 
 
 ### Columns
@@ -60,7 +60,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 597
+[dc:extent](http://purl.org/dc/terms/extent) | 598
 
 
 ### Columns
